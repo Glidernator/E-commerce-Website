@@ -132,7 +132,7 @@ div .first-three {
   z-index: 1000;
   visibility: hidden;
   opacity: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   margin-top: 15px;
 }
@@ -149,3 +149,11 @@ div .first-three {
   display: flex;
   margin-top: 20px;
 }
+/* #sub-sub-menu {
+  display: flex;
+  position: absolute;
+  width: 500px;
+  left: 200px !important;
+  flex-direction: column;
+  background: #1c1c1c;
+} */
